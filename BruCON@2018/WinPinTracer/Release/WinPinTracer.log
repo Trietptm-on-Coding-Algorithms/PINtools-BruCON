@@ -1,0 +1,14 @@
+﻿Build started 10/3/2018 2:45:21 PM.
+Project "G:\pin-2.14\source\tools\WinPinTracer\WinPinTracer.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include\pin /I..\..\include\pin\gen /I..\InstLib /I"..\..\..\extras\xed-ia32\include" /I..\..\..\extras\components\include /nologo /W3 /WX- /O2 /Oi /Oy- /D TARGET_IA32 /D HOST_IA32 /D TARGET_WINDOWS /D BIGARRAY_MULTIPLIER=1 /D _CRT_SECURE_NO_DEPRECATE /D _SECURE_SCL=0 /D WIN32 /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4530 /analyze- /errorReport:prompt /EHs- /EHa- WinPinTracer.cpp
+  WinPinTracer.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\pin-2.14\source\tools\WinPinTracer\Release\WinPinTracer.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\ia32\lib /LIBPATH:"..\..\..\ia32\lib-ext" /LIBPATH:"..\..\..\extras\xed-ia32\lib" pin.lib libxed.lib libcpmt.lib libcmt.lib pinvm.lib kernel32.lib "ntdll-32.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"G:\pin-2.14\source\tools\WinPinTracer\Release\WinPinTracer.pdb" /OPT:REF /TLBID:1 /ENTRY:"Ptrace_DllMainCRTStartup@12" /BASE:"0x55000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\pin-2.14\source\tools\WinPinTracer\Release\WinPinTracer.lib" /MACHINE:X86 /SAFESEH:NO /export:main /DLL Release\WinPinTracer.obj
+     Creating library G:\pin-2.14\source\tools\WinPinTracer\Release\WinPinTracer.lib and object G:\pin-2.14\source\tools\WinPinTracer\Release\WinPinTracer.exp
+  WinPinTracer.vcxproj -> G:\pin-2.14\source\tools\WinPinTracer\Release\WinPinTracer.dll
+Done Building Project "G:\pin-2.14\source\tools\WinPinTracer\WinPinTracer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.82

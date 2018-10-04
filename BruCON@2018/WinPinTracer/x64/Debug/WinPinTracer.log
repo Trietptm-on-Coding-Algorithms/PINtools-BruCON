@@ -1,0 +1,18 @@
+﻿Build started 7/17/2018 6:47:20 AM.
+Project "C:\Users\JohnDoe\Desktop\pin-2.14\source\tools\WinPinTracer\WinPinTracer.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include\pin /I..\..\include\pin\gen /I..\InstLib /I"..\..\..\extras\xed-intel64\include" /I..\..\..\extras\components\include /Zi /nologo /W3 /WX- /Od /D TARGET_IA32E /D HOST_IA32E /D TARGET_WINDOWS /D BIGARRAY_MULTIPLIER=1 /D _CRT_SECURE_NO_DEPRECATE /D _SECURE_SCL=0 /D WIN32 /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /wd4530 /errorReport:prompt /EHs- /EHa- WinPinTracer.cpp
+  WinPinTracer.cpp
+WinPinTracer.cpp(312): warning C4244: 'argument' : conversion from 'LEVEL_BASE::ADDRINT' to 'LEVEL_BASE::INT32', possible loss of data
+WinPinTracer.cpp(374): warning C4244: 'argument' : conversion from 'LEVEL_BASE::ADDRINT' to 'LEVEL_BASE::INT32', possible loss of data
+WinPinTracer.cpp(546): warning C4244: 'argument' : conversion from 'LEVEL_BASE::ADDRINT' to 'LEVEL_BASE::INT32', possible loss of data
+WinPinTracer.cpp(579): warning C4244: 'argument' : conversion from 'LEVEL_BASE::ADDRINT' to 'LEVEL_BASE::INT32', possible loss of data
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JohnDoe\Desktop\pin-2.14\source\tools\WinPinTracer\x64\Debug\WinPinTracer.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\intel64\lib /LIBPATH:"..\..\..\intel64\lib-ext" /LIBPATH:"..\..\..\extras\xed-intel64\lib" pin.lib libxed.lib libcpmt.lib libcmt.lib pinvm.lib kernel32.lib "ntdll-64.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\JohnDoe\Desktop\pin-2.14\source\tools\WinPinTracer\x64\Debug\WinPinTracer.pdb" /OPT:NOREF /TLBID:1 /ENTRY:"Ptrace_DllMainCRTStartup" /BASE:"0xC5000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JohnDoe\Desktop\pin-2.14\source\tools\WinPinTracer\x64\Debug\WinPinTracer.lib" /MACHINE:X64 /export:main /DLL x64\Debug\WinPinTracer.obj
+     Creating library C:\Users\JohnDoe\Desktop\pin-2.14\source\tools\WinPinTracer\x64\Debug\WinPinTracer.lib and object C:\Users\JohnDoe\Desktop\pin-2.14\source\tools\WinPinTracer\x64\Debug\WinPinTracer.exp
+  WinPinTracer.vcxproj -> C:\Users\JohnDoe\Desktop\pin-2.14\source\tools\WinPinTracer\x64\Debug\WinPinTracer.dll
+Done Building Project "C:\Users\JohnDoe\Desktop\pin-2.14\source\tools\WinPinTracer\WinPinTracer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84

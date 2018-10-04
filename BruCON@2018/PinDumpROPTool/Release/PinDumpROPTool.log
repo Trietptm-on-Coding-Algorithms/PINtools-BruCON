@@ -1,0 +1,11 @@
+﻿Build started 9/30/2018 2:37:52 AM.
+Project "G:\pin-2.14\source\tools\PinDumpROPTool\PinDumpROPTool.vcxproj" on node 2 (Build target(s)).
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\pin-2.14\source\tools\PinDumpROPTool\Release\PinDumpROPTool.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\ia32\lib /LIBPATH:"..\..\..\ia32\lib-ext" /LIBPATH:"..\..\..\extras\xed-ia32\lib" pin.lib libxed.lib libcpmt.lib libcmt.lib pinvm.lib kernel32.lib "ntdll-32.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"G:\pin-2.14\source\tools\PinDumpROPTool\Release\PinDumpROPTool.pdb" /OPT:REF /TLBID:1 /ENTRY:"Ptrace_DllMainCRTStartup@12" /BASE:"0x55000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\pin-2.14\source\tools\PinDumpROPTool\Release\PinDumpROPTool.lib" /MACHINE:X86 /SAFESEH:NO /export:main /DLL Release\PinDumpROPTool.obj
+     Creating library G:\pin-2.14\source\tools\PinDumpROPTool\Release\PinDumpROPTool.lib and object G:\pin-2.14\source\tools\PinDumpROPTool\Release\PinDumpROPTool.exp
+  PinDumpROPTool.vcxproj -> G:\pin-2.14\source\tools\PinDumpROPTool\Release\PinDumpROPTool.dll
+Done Building Project "G:\pin-2.14\source\tools\PinDumpROPTool\PinDumpROPTool.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.03

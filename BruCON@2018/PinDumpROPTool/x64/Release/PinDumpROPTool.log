@@ -1,0 +1,14 @@
+﻿Build started 9/30/2018 2:37:15 AM.
+Project "G:\pin-2.14\source\tools\PinDumpROPTool\PinDumpROPTool.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include\pin /I..\..\include\pin\gen /I..\InstLib /I"..\..\..\extras\xed-intel64\include" /I..\..\..\extras\components\include /nologo /W3 /WX- /O2 /Oi /D TARGET_IA32E /D HOST_IA32E /D TARGET_WINDOWS /D BIGARRAY_MULTIPLIER=1 /D _CRT_SECURE_NO_DEPRECATE /D _SECURE_SCL=0 /D WIN32 /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /wd4530 /errorReport:prompt /EHs- /EHa- PinDumpROPTool.cpp
+  PinDumpROPTool.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\pin-2.14\source\tools\PinDumpROPTool\x64\Release\PinDumpROPTool.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\intel64\lib /LIBPATH:"..\..\..\intel64\lib-ext" /LIBPATH:"..\..\..\extras\xed-intel64\lib" pin.lib libxed.lib libcpmt.lib libcmt.lib pinvm.lib kernel32.lib "ntdll-64.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"G:\pin-2.14\source\tools\PinDumpROPTool\x64\Release\PinDumpROPTool.pdb" /OPT:REF /TLBID:1 /ENTRY:"Ptrace_DllMainCRTStartup" /BASE:"0xC5000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\pin-2.14\source\tools\PinDumpROPTool\x64\Release\PinDumpROPTool.lib" /MACHINE:X64 /export:main /DLL x64\Release\PinDumpROPTool.obj
+     Creating library G:\pin-2.14\source\tools\PinDumpROPTool\x64\Release\PinDumpROPTool.lib and object G:\pin-2.14\source\tools\PinDumpROPTool\x64\Release\PinDumpROPTool.exp
+  PinDumpROPTool.vcxproj -> G:\pin-2.14\source\tools\PinDumpROPTool\x64\Release\PinDumpROPTool.dll
+Done Building Project "G:\pin-2.14\source\tools\PinDumpROPTool\PinDumpROPTool.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.93
